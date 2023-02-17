@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+.section-1 {
+    background-color: rgb(25, 25, 124);
+    width: auto;
+    height: 100px;
+    padding: 0;
+}
+
+
+
+.titulo {
+    color: white;
+    margin: auto;
+    text-align: center;
+}
