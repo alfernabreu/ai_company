@@ -3,7 +3,7 @@ body {
 }
 
 .section-1 {
-    background-color: rgb(25, 25, 124);
+    background-color: rgb(5, 5, 67);
     width: auto;
     height: 150px;
     padding: 0;
@@ -14,7 +14,9 @@ body {
 }
 
 .title {
-    color: white;
+    color: rgb(133, 162, 229);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
     margin: auto;
     text-align: center;
 }
