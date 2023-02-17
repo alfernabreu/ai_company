@@ -9,7 +9,9 @@ body {
     padding: 0;
 }
 
-
+.logo {
+    text-align: center;
+}
 
 .title {
     color: white;
