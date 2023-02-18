@@ -2,11 +2,10 @@ body {
     margin: 0;
 }
 
-.section-1 {
-    background-color: rgb(26, 26, 69);
-    height: 130px;
-    padding: 0;
-    width: auto;
+.contact, .services, .who {
+    display: inline-block;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .logo {
@@ -16,6 +15,27 @@ body {
 .logomarca{
     width: 70px;
     margin-top: 15px;
+}
+
+.options {
+    text-align: center;
+}
+
+.section-1 {
+    background-color: rgb(26, 26, 69);
+    height: 130px;
+    padding: 0;
+    width: auto;
+}
+
+.section-2 {
+    background-color:rgb(27, 61, 109)
+}
+
+.section-2-text{
+    color: rgb(145, 182, 241);
+    font-family: sans-serif;
+    font-size: 20px;
 }
 
 .title {
