@@ -3,40 +3,31 @@ body {
     background-color: rgb(20, 37, 68);
 }
 
-.contact, .services, .who {
-    display: inline-block;
-    margin-left: 3%;
-    margin-right: 3%;
-}
-
-.logo {
-    text-align: center;
-}
-
 .logomarca{
-    width: 70px;
     margin-top: 15px;
-}
-
-.options {
-    text-align: center;
+    width: 70px;
 }
 
 .section-1 {
     background-color: rgb(26, 26, 69);
     height: 130px;
     padding: 0;
-    width: auto;
+    text-align: center;
 }
 
 .section-2 {
-    background-color:rgb(27, 61, 109)
+    background-color:rgb(27, 61, 109);
+    text-align: center;
 }
 
 .section-2-text{
     color: rgb(145, 182, 241);
+    display: inline-block;
     font-family: sans-serif;
     font-size: 20px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .title {
@@ -45,5 +36,4 @@ body {
     font-size: 26px;
     font-weight:bolder;
     margin: auto;
-    text-align: center;
 }
