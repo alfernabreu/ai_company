@@ -1,27 +1,46 @@
-body {
+* {
     margin: 0;
-    background-color: rgb(20, 37, 68);
-}
-
-.logomarca{
-    margin-top: 15px;
-    width: 70px;
-}
-
-.section-1 {
-    background-color: rgb(26, 26, 69);
-    height: 130px;
     padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/*----------- header ------------*/
+
+.container-header {
+    background-color: #04233f;
+    padding: 20px;
     text-align: center;
 }
 
-.section-2 {
-    background-color:rgb(27, 61, 109);
-    text-align: center;
-    padding: 10px;
+.container-header h3 {
+    font-weight: 600;
+    font-size: 2em;
+    color: #1190ff;
 }
 
-.section-2-text{
+/*----------- nav ------------*/
+
+.container-nav {
+    background-color:#06345d;
+    text-align: center;
+    padding: 20px;
+}
+
+.container-nav a {
+    font-size: 1.5em;
+    margin: 0px 50px;
+    text-decoration: none;
+    color: #7cc2ff;
+}
+
+.container-nav a:hover {
+    color: #ffffff;
+}
+
+.container-nav-text{
     color: rgb(145, 182, 241);
     display: inline-block;
     font-family: sans-serif;
@@ -31,10 +50,44 @@ body {
     text-decoration: none;
 }
 
-.title {
-    color: rgb(90, 132, 249);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 26px;
-    font-weight:bolder;
-    margin: auto;
+/*----------- articles section ------------*/
+.container-articles {
+    background-color: #05192a;
+    overflow: auto;
+}
+
+.container-articles .servico {
+    float: center;
+    margin: 60px auto;
+    background-color: #061f35;
+    width: 50%;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container-articles .servico-texto {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #81c4ff;
+}
+
+.container-articles .servico-texto-realce {
+    color: white;
+    font-weight: bold;
+}
+
+
+.container-articles .servico .icone {
+    margin-bottom: 10px;
+}
+
+/*----------- general settings ------------*/
+.text-center {
+    text-align: center;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
 }
